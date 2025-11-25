@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body class="hero">
+    <nav class="top-header">
+      <a href="" class="logo">
+        <img src="img/images.jpg" width="80px" height="70px" alt="" />
+      </a>
+      <ul class="menu-horizontal">
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <a href="#">Productos</a>
+          <ul class="menu-vertical">
+            <li>Tarjetas</li>
+            <li>Prestamos</li>
+            <li>Seguros</li>
+            <li>Pagos</li>
+            <li>Telegiros</li>
+          </ul>
+        </li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Beneficios</a></li>
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--seccion inicio-->
+    <section class="seccion-inicio">
+      <div class="cont-gral-inicio">
+        <div class="cont-ini-text">
+          <h2>Seccion Inicio</h2>
+          <p>A timeless classic for parties and tournaments!</p>
+        </div>
+        <div class="cont-ini-img">
+          <img src="img/sr1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--seccion servicios-->
+    <section class="seccion-servicios">
+      <div class="cont-gral-servicios">
+        <div class="cont-ini-text">
+          <h2>Seccion Inicio</h2>
+          <p>A timeless classic for parties and tournaments!</p>
+        </div>
+        <div class="cont-ini-img">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qPNpSO8x5_k?si=aqjviE3kV_Nw8ZsE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--seccion Contactanos-->
+    <section class="seccion-formulario">
+      <div class="div-cont-form">
+        <h2>Formulario Contactanos</h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario">
+          <!--Inputs= text-->
+          <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input
+              type="text"
+              name="asd"
+              id="nombre"
+              placeholder="Ingrese nombre"
+            />
+          </div>
+          <!--lista desplegable-->
+          <div class="campo">
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+              <option value="">Seleccione pais</option>
+              <option value="colombia">Colombia</option>
+              <option value="brazil">Brazil</option>
+              <option value="mexico">Mexico</option>
+              <option value="argentina">Argentina</option>
+              <option value="paraguay">Paraguay</option>
+            </select>
+          </div>
+          <!--Lista checkbox-->
+          <div class="campo">
+            <label for="">Personajes Favoritos:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input type="checkbox" name="interes" id="Cosmo" />Cosmonaut
+                  Comrade</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    id="Salem"
+                  />Salem</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="interes" id="Neko" />Maneki
+                  Neko</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    id="Scout"
+                  />Scout</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="interes" id="falcon" />The
+                  Falcon</label
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!--lista radio-->
+          <div class="campo">
+            <label for="">Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label for=""
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label for=""
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="img/logosr.png" alt="Logo" class="footer-logo" />
+            <p>SpeedRunners</p>
+            <small>TinyBuild © 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="pdf/speedrunners-press-release.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="pdf/speedrunners-press-release.pd"
+              >Términos y Condiciones</a
+            >
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="pdf/speedrunners-press-release.pd">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script defer src="script.js"></script>
+  </body>
+</html>
